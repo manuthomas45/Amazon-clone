@@ -1,0 +1,272 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.head1{
+    display: flex;
+    background-color: #06010fe1;
+    width:100% ;
+}
+.head2{
+    margin:0% 20%;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    align-items: center;
+    margin:15px 20px ;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: rgb(195, 217, 224);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+
+  .search{
+    max-width: 35px;
+    height: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* --------------header------------ */
+  .image img{
+    float: right;
+    width: 65%;
+    height: 90vh;
+    margin-top: 0;
+}
+.content{
+    float: left;
+    width:  35%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 40px;
+
+}
+.content h1
+{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.content p
+{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.content button
+{
+    width: 55%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0f79af;
+    opacity: 0.9;
+    outline: 0;
+    border-radius: 4px;
+}
+
+  /* ------------------body1--------------- */
+
+
+.image2 img{
+    float: right;
+    width:60% ;
+    height: 100vh;
+    margin-top: 0;
+}
+.content2{
+    float: left;
+    width:  40%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.content2 h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.content2 p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+
+.content2 button
+{
+    width: 45%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0f79af;
+    opacity: 0.9;
+    outline: 0;
+    border-radius: 4px;
+}
+/* -----------------------body2---------------
+ */
+
+
+ .image3 img{
+    float: right;
+    width: 50%;
+    height: 95vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.content3{
+    float: left;
+    width:  50%;
+    height: 95vh;
+    padding-top: 20px;
+    padding-left: 60px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.content3 h1
+{
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.content3 p
+{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+/* -------------bodey3--------------- */
+
+.image4 img{
+    float: left;
+    width: 50%;
+    height: 90vh;
+    margin-top: 0;
+}
+.content4{
+    float: right;
+    width:  50%;
+    height: 90vh;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.content4 h1
+{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-weight: 100;
+    background-color: rgba(10, 10, 10, 0.801);
+}
+.content4 p
+{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.content4 button
+{
+    width: 45%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0f79af;
+    opacity: 0.9;
+    outline: 0;
+    border-radius: 4px;
+}
+/* ---------footer--------------- */
+.footer1{
+    display: flex;
+    width: 100%;
+    height:8vh;
+    background-color:#222222;
+}
+.footer1 img{
+    width: 80px;
+    height:30px;
+    margin: 10px 690px;
+}
+.footer2
+{
+    display: flex;
+    background-color: #222222;
+    width: 100%;
+    height: 5vh; 
+}
+.footer2 a
+{
+    display: inline;
+    margin: 10px 530px;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 17px;
+    color: #0f79af;
+}
+
+.footer3
+{
+    display: flex;
+    background-color:  #222222;
+    width: 100%;
+    height: 7vh; 
+}
+.footer3 p
+{
+    display: inline;
+    margin: 10px 580px;
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 14px;
+    color:  #949494;
+}
+
